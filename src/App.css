@@ -1,0 +1,46 @@
+*
+{
+  font-family: "Nunito Sans" !important;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Nunito Sans" !important;
+  padding: 0;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Nunito Sans" !important;
+  background-color: aqua;
+}
+
+.Mainhead {
+  height: 7%;
+  width: 100%;
+}
+
+.Mainbody {
+  height: 93%;
+  width: 100%;
+  display: flex;
+}
+
+.MainSide {
+  width: 5%;
+  height: 100%;
+}
+
+.MainSpa {
+  width: 100%;
+  height: 100%;
+}
+
+
+.Singlepage
+{
+  height: 100%;
+  width: 100%;
+}

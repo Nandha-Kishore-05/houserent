@@ -4,6 +4,7 @@ import Head from '../components/Header/Head'
 import Sidebar from '../components/Sidebar/Sidebar'
 import MainPage from '../Pages/MainPage'
 import { Box } from '@mui/material'
+
 function SinglePage() {
   return (
     <Box className="Singlepage">

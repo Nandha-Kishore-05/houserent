@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../../styles/MainSpace.css";
-
+import Dialog from "@mui/material/Dialog";
 import { Box } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import GridCard from "../GridCard/GridCard";
@@ -14,7 +14,7 @@ function UnitDetails() {
     {
       tit: "Jumeirah Estate",
       price: 1200,
-      smaitit: "Jumeirah Golf Estate",
+      smaitit: "Jumeirah Estate",
       sqft: 2000,
       bed: 2,
       tub: 2,
@@ -23,7 +23,7 @@ function UnitDetails() {
     {
       tit: "Jumeirah Estate",
       price: 1200,
-      smaitit: "Jumeirah Golf Estate",
+      smaitit: "Jumeirah Estate",
       sqft: 2000,
       bed: 2,
       tub: 2,
@@ -32,7 +32,7 @@ function UnitDetails() {
     {
       tit: "Jumeirah Estate",
       price: 1200,
-      smaitit: "Jumeirah golf  Estate",
+      smaitit: "Jumeirah Estate",
       sqft: 2000,
       bed: 2,
       tub: 2,
@@ -41,13 +41,13 @@ function UnitDetails() {
     {
       tit: "Jumeirah Estate",
       price: 1200,
-      smaitit: "Jumeirah golf Estate",
+      smaitit: "Jumeirah Estate",
       sqft: 2000,
       bed: 2,
       tub: 2,
       home: 2,
     },
-
+   
   ];
 
   return (

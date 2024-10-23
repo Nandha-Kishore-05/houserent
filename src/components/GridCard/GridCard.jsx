@@ -10,19 +10,19 @@ import BathtubOutlinedIcon from "@mui/icons-material/BathtubOutlined";
 import { Box, IconButton } from "@mui/material";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import "../../styles/Threepage.css";
-import DeleteForeverOutlinedIcon from "@mui/icons-material/DeleteForeverOutlined";
+import DeleteIcon from '@mui/icons-material/Delete';
 import CardActionArea from "@mui/material/CardActionArea";
 import AddIcon from "@mui/icons-material/Add";
 import Menuicon from "../MenuSidebar/Menuicon";
+import Discountpop from "../Popup/main";
 
-import DeleteIcon from '@mui/icons-material/Delete';
 function GridCard(props) {
-  // const [openmainpop, setopenmainpop] = useState(false)
+  const [openmainpop, setopenmainpop] = useState(false)
 
-  // const closepopup  = () =>
-  // {
-  //   setopenmainpop(false)
-  // }
+  const closepopup  = () =>
+  {
+    setopenmainpop(false)
+  }
   return (
     <Card sx={{ width: "99%", height: "100%", display: "flex" , border:'1px solid #E4E8EE', borderRadius:'6px', boxShadow: 'none' }}>
       <CardActionArea
@@ -53,7 +53,7 @@ function GridCard(props) {
             className="cardimgonle"
             image={Gridimg}
             alt="green iguana"
-            style={{ width: "100%", height: "100%", position: "relative" }}
+            style={{ width: "100%", height: "100%", position: "relative" }} 
           />
           <IconButton
             style={{
@@ -112,15 +112,15 @@ function GridCard(props) {
         </Box>
       </CardActionArea>
 
-      {/* <Dialog
+      <Dialog
         open={openmainpop}
         onClose={closepopup}
         PaperProps={{
           style: { height: "700px", minWidth: "900px" },
         }}
       >
-        <MainPopup  setopenmainpop={setopenmainpop}/>
-      </Dialog> */}
+        <Discountpop  setopenmainpop={setopenmainpop}/>
+      </Dialog>
     </Card>
   );
 }
